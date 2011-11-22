@@ -87,7 +87,7 @@ Git.io only shortens URLs on github.com and its subdomains.
 It is not a general purpose URL shortener.
 
 =head1 SEE ALSO
- 
+
 L<WWW::Shorten>, L<http://git.io/help>
 
 =head1 AUTHOR
