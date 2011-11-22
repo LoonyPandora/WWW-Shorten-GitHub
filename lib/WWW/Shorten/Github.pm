@@ -21,7 +21,6 @@ a pre-shortened URL
 
     my $short_url = makeashorterlink($long_url);
 
-
 =cut
 
 
@@ -34,7 +33,6 @@ our $VERSION = '0.1.0';
 
 use Carp;
 use URI;
-
 
 sub makeashorterlink {
     my $url = shift or croak 'No URL passed to makeashorterlink';
@@ -82,7 +80,6 @@ sub makealongerlink {
 
 1;
 
-
 =head1 CAVEATS
 
 Git.io only shortens URLs on github.com and its subdomains.
@@ -105,4 +102,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
