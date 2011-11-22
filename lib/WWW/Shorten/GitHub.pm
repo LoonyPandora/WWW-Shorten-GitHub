@@ -29,7 +29,7 @@ use warnings;
 use base qw(WWW::Shorten::generic Exporter);
 
 our @EXPORT = qw(makeashorterlink makealongerlink);
-our $VERSION = '0.1.0';
+our $VERSION = '0.1.1';
 
 use Carp;
 use URI;
