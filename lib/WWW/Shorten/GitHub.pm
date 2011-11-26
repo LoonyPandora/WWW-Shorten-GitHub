@@ -38,7 +38,7 @@ sub makeashorterlink {
     my $url = shift or croak 'No URL passed to makeashorterlink';
 
     my $host = URI->new($url)->host();    
-    if ($host !~ m/github\.com$/) {
+    if ($host !~ m/^(gist\.)?github\.com$/) {
         croak "Git.io only shortens URLs under the github.com domain";
     }
 
