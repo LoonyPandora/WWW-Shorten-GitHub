@@ -1,4 +1,10 @@
 
+0.1.2   2011-11-26
+
+    [ BUG FIX ]
+    * Make sure to fail BEFORE making an HTTP request
+      if the subdomain is not gist.github.com
+
 0.1.1   2011-11-22
 
     [ BUG FIX ]
