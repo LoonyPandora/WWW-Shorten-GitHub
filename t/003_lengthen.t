@@ -6,5 +6,5 @@ use WWW::Shorten 'GitHub';
 
 my $url = 'https://github.com/LoonyPandora/WWW-Shorten-GitHub';
 
-is(makealongerlink('http://git.io/WWW-Shorten-GitHub'), $url);
-is(makealongerlink('WWW-Shorten-GitHub'), $url);
+is(makealongerlink('http://git.io/2BUFew'), $url);
+is(makealongerlink('2BUFew'), $url);
